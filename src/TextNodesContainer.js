@@ -63,7 +63,8 @@ class TextNodesContainer extends React.Component {
 
   render() {
     return (
-      <div>
+      <div
+        contentEditable='true'>
         {this.state.textNodes}
       </div>
     )
